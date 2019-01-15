@@ -325,6 +325,7 @@ def check_comment_for_animal(comment, reddit):
     botengine('mongoose', '\smongooses?\s', reddit, MONGOOSE_FACTS, comment)
     botengine('monkey', '\smonkeys?\s', reddit, MONKEY_FACTS, comment)
     botengine('moose', '\smoose\s', reddit, MOOSE_FACTS, comment)
+    botengine('morayeels''\smorayeels\s',reddit , MORAYEELS_FACTS , comment)
     botengine('narwhal', '\snarwhals?\s', reddit, NARWHAL_FACTS, comment)
     botengine('newt', '\snewts?\s', reddit, NEWT_FACTS, comment)
     botengine('nightjar', '\snightjars?\s', reddit, NIGHTJAR_FACTS, comment)
@@ -486,6 +487,8 @@ ALBATROSS_FACTS = (
     'Albatrosses spend over 80% of their life at sea, visiting land only for breeding.',
     'In all albatross species, both parents incubate the egg in stints. Incubation lasts around 70 to 80 days (longer for the larger albatrosses), the longest incubation period of any bird.',
     )
+
+
 
 ALLIGATOR_FACTS = (
     'Alligators have been living on Earth for millions of years and are sometimes described as ‘living fossils’.',
@@ -2156,6 +2159,20 @@ MOOSE_FACTS = (
     'Moose can run up to 35 miles per hour.',
     )
 
+MORAYEELS_FACTS= (
+     'Moray eel is the largest type of eel.',
+     'There are 200 different species of moray eel found in fresh, marine and brackish waters.',
+     'Moray eels prefer warmer water and they can be often found in the shallow water and near the coral reefs.',
+     'Size of the Moray eel depends on the species. It ranges in length from 6 inches to 15 feet. Average weight of the moray eels is 30 pounds.',
+     'Moray eel has a long and slender body which resembles to snake, but they do not belong to the group of reptiles - they are true fish.',
+     'Color of the moray eel varies from black to yellowish brown. Underside of their body is pale.',
+     'Moray eel has a long dorsal fin which runs from the head to the tail. Most moray eels lack pectoral and pelvic fins.',
+     'Moray eel spends most of its time hidden in the caves and rock crevices on the bottom of the sea. It attacks like an ambush predator that is waiting for the perfect prey to appear.',
+     'Moray eel is a carnivore (eat meat) who like to eat fish, octopuses, squid, cuttlefish, crabs, mollusks.',
+     'Teeth are pointed backwards, preventing the slippery prey to escape.',
+     'Moray eels produce slippery substance, acting as protective mucus, which covers their body. Mucus of some species contains toxins.',
+    )
+
 NARWHAL_FACTS = (
     'Unlike some whale species that migrate, narwhals spend their lives in the Arctic waters of Canada, Greenland, Norway, and Russia. Most narwhals winter for up to five months under sea ice in the Baffin Bay-Davis Strait area.',
     'Narwhals feed on Greenland halibut, Arctic and polar cod, squid and shrimp. They do their chomping at the ice floe edge and in the ice-free summer waters.',
@@ -3512,6 +3529,7 @@ ALL_FACTS = (
     MONGOOSE_FACTS,
     MONKEY_FACTS,
     MOOSE_FACTS,
+    MORAYEELS_FACTS,
     NARWHAL_FACTS,
     NEWT_FACTS,
     NIGHTJAR_FACTS,
